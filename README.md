@@ -4,11 +4,11 @@
 
 ### Обзор
  использованны:
-  Flex, Grid, Form, hover, адаптивная верстка.
+  Flex, Grid, Form, hover, адаптивная верстка,popup
 * HTML
 * SCSS
-* CSS(Flex, Grid, Form, hover, адаптивная верстка.)
-* JS( основы: работа с функциями, сабмитом, )
+=======
+* CSS(Flex, Grid, Form, hover, адаптивная верстка.
 * Figma
 * Картинки
 
