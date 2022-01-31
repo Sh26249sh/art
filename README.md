@@ -7,8 +7,8 @@
   Flex, Grid, Form, hover, адаптивная верстка,popup
 * HTML
 * SCSS
-* CSS
-* JS( основы: работа с функциями, сабмитом, )
+=======
+* CSS(Flex, Grid, Form, hover, адаптивная верстка.
 * Figma
 * Картинки
 
