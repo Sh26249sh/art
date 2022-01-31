@@ -6,6 +6,7 @@
  использованны:
   Flex, Grid, Form, hover, адаптивная верстка.
 * HTML
+* SCSS
 * CSS(Flex, Grid, Form, hover, адаптивная верстка.)
 * JS( основы: работа с функциями, сабмитом, )
 * Figma
