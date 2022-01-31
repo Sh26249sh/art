@@ -1,0 +1,17 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts/fonts.css";
+@import "../bloks/header/header.css";
+@import "../bloks/footer/footer.css";
+@import "../bloks/looks/looks.css";
+@import "../bloks/content-first/content-first.css";
+@import "../bloks/content-red/content-red.css";
+@import "../bloks/content-blue/content-blue.css";
+@import "../bloks/content-green/content-green.css";
+@import "../bloks/popup/popup.css";
+.page {
+  font-family: "Prompt", Arial, sans-serif;
+}
+
+.about {
+  margin: 80px 20px 80px;
+}/*# sourceMappingURL=styles.css.map */

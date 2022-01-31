@@ -1,0 +1,13 @@
+.about {
+  margin: 80px 20px 80px;
+}
+@media screen and (max-width: 1400px) {
+  .about {
+    margin: 60px 20px 80px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .about {
+    margin: 40px 20px 40px;
+  }
+}/*# sourceMappingURL=about.css.map */

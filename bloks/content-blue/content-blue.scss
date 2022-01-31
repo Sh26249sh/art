@@ -1,0 +1,39 @@
+.content-blue{
+  margin: 80px 0 0;
+  display: flex;
+  justify-content: space-between;
+  &__img{
+    width: 618px;
+    height: 618px;
+    @media screen and (max-width:1400px){ 
+      width: 304px;
+      height: 304px;
+    }
+    @media screen and (max-width:760px){ 
+      width: 280px;
+      height: 280px;
+    }
+  }
+  &__text{
+    width: 700px;
+    margin: auto 0 auto 82px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: normal;
+    @media screen and (max-width:760px){ 
+      font-size: 16px;
+      line-height: 24px;
+      margin: 20px auto 0;
+      width: 100%;
+      min-width: 280px;
+    }
+  }
+  @media screen and (max-width:1400px){ 
+    margin: 70px 0 0;
+  }
+  @media screen and (max-width:760px){ 
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0 0;
+  }
+}

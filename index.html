@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__menu menu-bt">
+      <img class="header__menu-icon" src="/images/icon_menu.svg" alt="меню">
+      <p class="header__menu-text">MENU</p>
+    </div>
+    <img src="/images/image1.png" alt="фото модели" class="header__image">
+    <div class="header__text">
+      <h1 class="header__title">GIVENCHY<br>
+      SPRING SUMMER 2021<br>
+      BY MATTHEW M. WILLIAMS
+      </h1>
+      <a class="header__button" href="#subscribe">SUBSCRIBE TO COLLECTION’S NEWS</a>
+  
+  </header>
+  <main>
+    <section class="about" id="about">
+      <div class="content-first">
+        <h2 class="content-first__title" >ABOUT</h2>
+        <p class="content-first__text">The Spring-Summer ‘21 collection explores Givenchy in the form of a stream of consciousness for Williams and is a ‘sampler’ of what is to come.</p>
+      </div>
+      <div class="content-red">
+        <div class="content-red__text">
+          <p>“To me, fashion expresses a point of view where formality and informality, construction and comfort co-exist. My ethos is about the luxury of infusing clothes with your own personality, not being worn by them,”</p>
+          <p>Matthew M. Williams.</p>
+        </div>
+        <img src="./images/_0016_1080X13506(1).png" alt="Фото модели" class="content-red__img">
+      </div>
+      <div class="content-blue">
+        <img src="./images/_0007_1080X135015(1).png" alt="фото модели" class="content-blue__img">
+        <p class="content-blue__text">Matthew M. Williams reveals his vision with help from an all-star lineup of likeminded artists. The Creative Director called on close friends in his tight-knit community of artists. Kendall Jenner, Bella Hadid, Playboi Carti and the supermodels Anok Yai and Liam Powers were each invited to put their own stamp on key pieces, the better to highlight the importance of cultivating a powerful personal style.
+        </p>
+      </div>
+      <div class="content-green">
+        <div class="content-green__text">
+          <p>“In each of these portraits, a strong character wears a look that reflects who they are: they’re the ones who bring the clothes to life.”</p>
+          <p>Matthew M. Williams.</p>
+        </div>
+        
+        <img src="./images/_0020_1080X13502(1).png" alt="фото модели" class="content-green__img">
+      </div>
+    </section>
+    <section class="looks" id="looks">
+      <h2 class="looks__title">LOOKS</h2>
+      <div class="looks__galleries">
+        <div class="looks__gallery">
+          <img src="/images/_0000_1080X1350.png" alt="фото модели" class="looks__image">
+          <img src="/images/_0002_1080X135020.png" alt="фото модели" class="looks__image">
+          <img src="/images/_0004_1080X135018.png" alt="фото модели" class="looks__image">
+          <img src="/images/_0005_1080X135017.png" alt="фото модели" class="looks__image">
+        </div>
+        <div class="looks__gallery">
+          <img src="/images/_0010_1080X135012.png" alt="фото модели" class="looks__image">
+          <img src="/images/_0011_1080X135011.png" alt="фото модели" class="looks__image">
+          <img src="/images/_0013_1080X13509.png" alt="фото модели" class="looks__image">
+          <img src="/images/_0014_1080X13508.png" alt="фото модели" class="looks__image">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="subscribe">
+    <p class="footer__text">Subscribe to the newsletterand be the first to know about new collection’s drop date and news</p>
+    <form class="footer__form">
+      <div class="footer__email-bt">
+        <input class="footer__input-email" type="text" placeholder="Eneter your email here">
+        <button class="footer__button" type="submit">SUBMIT</button>
+      </div>
+      
+      <div class="footer__checkbox"><input class="footer__checkbox-icon" type="checkbox" id="consent"> 
+      <label for="consent" class="footer__checkbox-text">I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the Privacy Policy</label></div>
+    </form>
+    <p class="footer__text">© 2021, Givenchy. Some rights reserved</p>
+  </footer>
+  <div class="popup popup_opened">
+    <div class="popup__menu">
+      <button class="popup__close"></button>
+      <ul class="popup__list">
+        <li class="popup__list-element menu-about"><a class="popup__link" href="#about">ABOUT</a></li>
+        <li class="popup__list-element menu-looks"><a class="popup__link" href="#looks">LOOKS</a></li>
+        <li class="popup__list-element menu-subscribe"><a class="popup__link" href="#subscribe">SUBSCRIBE</a></li>
+      </ul>
+      
+      
+    </div>
+  </div>
+  <script src="./script/script.js"></script>
+</body>
+</html>

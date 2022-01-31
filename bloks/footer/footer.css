@@ -1,0 +1,129 @@
+.footer {
+  background-color: #0a0a0a;
+  padding: 40px 0 40px;
+  margin: 0;
+}
+.footer__text {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 32px;
+  margin: 0 auto 0;
+  text-align: center;
+  width: 700px;
+}
+@media screen and (max-width: 1400px) {
+  .footer__text {
+    width: 486px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .footer__text {
+    width: 100%;
+    min-width: 280px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+  }
+}
+.footer__form {
+  width: 700px;
+  padding: 0;
+  margin: 0 auto 40px;
+}
+@media screen and (max-width: 1400px) {
+  .footer__form {
+    width: 486px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .footer__form {
+    width: 100%;
+    min-width: 280px;
+  }
+}
+.footer__email-bt {
+  display: flex;
+  width: 700px;
+  height: 48px;
+  margin: 40px auto 20px auto;
+}
+@media screen and (max-width: 1400px) {
+  .footer__email-bt {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .footer__email-bt {
+    flex-direction: column;
+    height: 88px;
+  }
+}
+.footer__input-email {
+  height: 48px;
+  width: 700px;
+  border: 0.5px solid #666666;
+  box-sizing: border-box;
+  background-color: #0a0a0a;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-left: 24px;
+  color: #666666;
+}
+@media screen and (max-width: 1400px) {
+  .footer__input-email {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .footer__input-email {
+    text-align: center;
+  }
+}
+.footer__button {
+  height: 48px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
+  border: none;
+  text-align: center;
+}
+@media screen and (max-width: 760px) {
+  .footer__button {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.footer__checkbox {
+  display: inline-flex;
+}
+.footer__checkbox-icon {
+  background-color: #0a0a0a;
+  border: #ffffff;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+.footer__checkbox-text {
+  color: #ffffff;
+  margin: 0 0 0 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+@media screen and (max-width: 1400px) {
+  .footer {
+    padding: 40px 141px 40px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .footer {
+    padding: 40px 20px 40px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=footer.css.map */

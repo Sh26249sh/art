@@ -1,0 +1,55 @@
+.content-green{
+  margin: 80px 0 0 0;
+  display: flex;
+  position: relative;
+  height: 1096px;
+  &__text{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    width: 700px;
+    z-index: 2;
+    margin: 426px auto auto 0;
+    @media screen and (max-width:1400px){ 
+      width: 50%;
+      margin: 115px auto auto 0;
+    }
+    @media screen and (max-width:760px){ 
+      margin:20px auto 0;
+      font-size: 20px;
+      line-height: 28px;
+      width: 100%;
+      min-width: 280px;
+
+    }
+  }
+  &__img{
+    position: absolute;
+    z-index: 1;
+    width: 875px;
+    height: 1095px;
+    top: 0;
+    right: 0;
+    @media screen and (max-width:1400px){ 
+      width: 485px;
+      height: 607px;
+    }
+    @media screen and (max-width:760px){ 
+      position: static;
+      order: -1;
+      width: 280px;
+      height: 350px;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width:1400px){ 
+    margin: 120px 0 0 0;
+    height: 607px;
+  }
+  @media screen and (max-width:760px){ 
+    margin: 40px 0 0 0;
+    flex-direction: column;
+    height: auto;
+  }
+}
